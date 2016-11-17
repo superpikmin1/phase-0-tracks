@@ -43,3 +43,14 @@ main {
   width: 72%;
   display: inline-block;
 }
+@media screen and (max-width: 500px) {
+  main h1{
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #external-links {
+    display: block;
+    width: 50%;
+  }
+}
