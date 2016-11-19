@@ -1,0 +1,18 @@
+elevator
+-For each button
+	-until correct button found:
+		-identify button
+		-if button is not correct button
+			-identify next button
+		-otherwise
+			-press button
+
+Making container
+	-if coffee maker is off
+		-turn coffee maker on and wait for warm up
+	-replace coffee cartridge
+	-place mug under dispenser
+	-if water container is low
+		-fill water container
+	-otherwise
+		-click brew
