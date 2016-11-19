@@ -7,7 +7,7 @@ elevator
 		-otherwise
 			-press button
 
-Making container
+Making coffee
 	-if coffee maker is off
 		-turn coffee maker on and wait for warm up
 	-replace coffee cartridge
