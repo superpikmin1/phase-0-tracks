@@ -57,7 +57,7 @@ end
 
 puts "encrypt or decrypt?"
 request = gets.chomp
-while !request.eql?"encrypt" && "decrypt"
+while request != ("encrypt") && request != ("decrypt")
 	puts "Invalid request: encrypt or decrypt"
 	request = gets.chomp
 end
