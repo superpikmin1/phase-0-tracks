@@ -8,7 +8,11 @@
 #		-income
 #		-favorite animal
 #	-get user input to create values for the keys
+#	-change data types
+#	-allow user to go back
 #	-print hash
+
+
 client = {}
 puts "What is your name?"
 client [:name] = gets.chomp
