@@ -1,0 +1,44 @@
+-define class Word_Game
+	-create init method that takes in a word
+		-global variables to set
+			-goal word to parameter
+			-guess counter to 0
+			-array of guesses to empty
+			-game ended to false
+			-word progress to empty
+
+	-create transform method
+		-takes goal word length and puts that amount of _ into word progress
+
+	-create update method that takes a letter
+		-takes the index of the letter in goal word and replaces the dash in word progress with the letter at that index
+
+	-create guess method that takes in a letter
+		-if guess word is not in the array of guesses
+			-word will be added to an array
+			-if goal word includes letter
+				-run update method on the letter
+			-guess counter will go up
+		
+
+
+-prompt user for a word
+-use that word to init new Word_Game
+-while game_ended is not true
+	-if word_progress is equal to goal_word
+		-set game_ended to true
+		-say WOW YOU WON
+		-break
+
+	-if guess counter is greater than word length
+		-game_ended is true
+		-say YOU LOSE LOL
+		-break
+	-prompt user for a letter
+	-run guess method on letter
+	
+	
+
+
+
+		
