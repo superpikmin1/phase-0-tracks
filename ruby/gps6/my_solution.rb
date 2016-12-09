@@ -1,6 +1,6 @@
 # Virus Predictor
 
-# I worked on this challenge with Dylan Cordoni.
+# I worked on this challenge with Aaron Calander.
 # We spent [countless] hours on this challenge.
 
 # Release 0
