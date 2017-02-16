@@ -17,3 +17,5 @@ A commit is a save point in your git. A good commit message will be concise on w
 * What is a merge conflict?
 
 A merge conflict is when you merge 2 branches that have changed the same aspect of the project differently to the master branch. Git will not know which one to use.
+
+.......
